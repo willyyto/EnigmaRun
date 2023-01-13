@@ -1,0 +1,363 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="img/Engima%20Run.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" id="ppstyle" type="text/css" href="css/style.css">
+    <link rel='stylesheet' href='fonts/font-awesome.min.css'/><link href='fonts/Montserrat_font.css' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="js/bootstrap.js"></script> 
+    <script src="js/blocs.js"></script>
+    <title>Enigma Run - Home</title>
+</head>    
+<body>
+<!-- Main container -->
+<div class="page-container">    
+<!-- Hero Bloc -->
+<div id="hero-bloc" class="bloc hero d-bloc">
+	<div class="container bloc-sm">
+		<nav class="navbar row">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#"><img width="40" height="40" src="img/logo.png" alt='ENIGMA RUN' /></a>
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse navbar-1">
+				<ul class="site-navigation nav">
+					<li>
+                       <a><strong>DOWNLOAD</strong></a>
+					</li>
+                    <li>
+                        <a target="_blank" href="#"><strong>GAME</strong></a>
+					</li>
+                    <li>
+                        <a onclick="scrollToTarget('#buy')"><strong>EXTRA</strong></a>
+					</li>
+                    <li>
+                        <a target="_blank" href="#"><strong>NEWS &amp; UPDATES</strong></a>
+					</li>
+
+                    
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<div class="v-center text-center">
+		<div class="vc-content">
+            <a data-toggle="modal" href="#demoVideo">
+                <img width="144" height="144" src="img/play.png" class="img-responsive mg-xl center-block" alt='play'/>
+            </a>
+			<h1>
+				GAMEPLAY
+			</h1>
+            <div class="hero-content">
+			 <p>
+				Click on the icon to see footage of the game.
+			</p>
+                <a onclick="scrollToTarget('#core')" class="btn-dwn"><span class="fa fa-chevron-down"></span></a>
+            </div>
+		</div>
+        
+	</div>
+</div>
+<!-- Hero Bloc END -->
+
+<!-- core feature bloc -->
+<div class="bloc  d-bloc " id="core">
+    
+	<div class="container bloc-xl">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2 class="text-center mg-sm">
+					<strong>A SIMPLE WAY</strong>
+				</h2>
+				<h3 class="text-center mg-xl">
+					TO BUILD BEAUTIFUL WEBSITES
+				</h3>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-sm-4">
+				<img width="160" height="160" src="img/circle.png" class="img-responsive center-block mg-lg" alt="Simplicity" />
+				<h4 class="mg-md text-center ">
+					<strong>SIMPLICITY</strong>
+				</h4>
+				<p class="text-center mg-lg">
+					Blocs subtracts the need to write code meaning everyone can build websites.
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img width="160" height="160" src="img/square.png" class="img-responsive center-block mg-lg" alt="Quality"/>
+				<h4 class="mg-md text-center ">
+					<strong>QUALITY</strong>
+				</h4>
+				<p class="text-center mg-lg">
+					Blocs generates good quality organised code with no clutter or inline styles.
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img width="160" height="160" src="img/triangle.png" class="img-responsive center-block mg-lg" alt="Clarity"/>
+				<h4 class="mg-md text-center">
+					<strong>CLARITY</strong>
+				</h4>
+				<p class="text-center mg-lg">
+					Blocs delivers a new level of clarity and focus helping you build websites faster.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- core feature bloc END -->
+
+<!-- features bloc -->
+<div class="bloc  d-bloc" id="features">
+	<div class="container bloc-xl">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2 class="text-center mg-sm">
+					<strong>WHY YOU&rsquo;LL LOVE</strong>
+				</h2>
+				<h3 class="text-center mg-xl">
+					TO BUILD WITH BLOCS
+				</h3>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-sm-4">
+				<img width="200" height="200" src="img/bulb.png" class="img-responsive mg-md center-block" alt='bulb' />
+				<h4 class="mg-md text-center ">
+					<strong>INTUITIVE</strong>
+				</h4>
+				<p class="text-center mg-lg">
+					Blocs has many time saving features such as smart swatches & auto type colouring.
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img width="200" height="200" src="img/rocket.png" class="img-responsive mg-md center-block" alt='rocket' />
+				<h4 class="mg-md text-center ">
+					<strong>FAST</strong>
+				</h4>
+				<p class="text-center mg-lg">
+					Blocs really is insanely fast, you can build full webpage layouts in minutes. 
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img width="200" height="200" src="img/no-code.png" class="img-responsive mg-md center-block" alt='coding' />
+				<h4 class="mg-md text-center ">
+					<strong>NO CODING</strong>
+				</h4>
+				<p class="text-center  mg-lg">
+					You don't need to understand or use any coding to build a website with Blocs.
+				</p>
+			</div>
+		</div>
+        <div class="row voffset">
+			<div class="col-sm-4 mg-lg">
+				<img width="200" height="200" src="img/bootstrap3.png" class="img-responsive mg-md center-block" alt='bootstrap' />
+				<h4 class="mg-md text-center">
+					<strong>BOOTSTRAP 3</strong>
+				</h4>
+				<p class="text-center mg-lg">
+					Blocs builds using Bootstrap 3 one of the most reliable and proven frameworks.
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img width="200" height="200" src="img/responsive.png" class="img-responsive mg-md center-block" alt='responsive' />
+				<h4 class="mg-md text-center">
+					<strong>RESPONSIVE</strong>
+				</h4>
+				<p class="text-center mg-lg">
+					Because Blocs builds following page flow, sites are responsive with no extra work.
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img width="200" height="200" src="img/type.png" class="img-responsive mg-md center-block" alt='webfonts' />
+				<h4 class="mg-md text-center">
+					<strong>WEB FONTS</strong>
+				</h4>
+				<p class="text-center mg-lg">
+					Blocs has a curated list of Google Web Fonts that you can easy use in your sites.
+				</p>
+			</div>
+		</div>
+        <div class="row voffset">
+			<div class="col-sm-4 mg-lg">
+				<img width="200" height="200" src="img/infinity.png" class="img-responsive mg-md center-block" alt='unlimited' />
+				<h4 class="mg-md text-center">
+					<strong>UNLIMITED WEBSITES</strong>
+				</h4>
+				<p class="text-center mg-lg">
+					Since Blocs is an actual desktop app you can build as many websites as you like.
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img width="200" height="200" src="img/blocs.png" class="img-responsive mg-md center-block" alt='blocs' />
+				<h4 class="mg-md text-center">
+					<strong>PRE MADE BLOCS</strong>
+				</h4>
+				<p class="text-center mg-lg">
+					Blocs comes with many pre-made layouts, so building and prototyping is super fast.
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img width="200" height="200" src="img/eye.png" class="img-responsive mg-md center-block" alt='eye' />
+				<h4 class="mg-md text-center">
+					<strong>RETINA SUPPORT</strong>
+				</h4>
+				<p class="text-center mg-lg">
+					Blocs has retina support, so you can enjoy every pixel on your Macs retina screen.
+				</p>
+			</div>
+		</div>
+        <div class="row voffset">
+			<div class="col-sm-4">
+				<img width="200" height="200" src="img/tick.png" class="img-responsive mg-md center-block" alt='tick' />
+				<h4 class="mg-md text-center">
+					<strong>EASY TO USE</strong>
+				</h4>
+				<p class="text-center mg-lg">
+					Blocs is one of the easiest website building tools, anyone can build with Blocs.
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img width="200" height="200" src="img/heart.png" class="img-responsive mg-md center-block" alt='heart' />
+				<h4 class="mg-md text-center">
+					<strong>BEAUTIFUL</strong>
+				</h4>
+				<p class="text-center mg-lg">
+					Not only is Blocs a great tool to use, it's also one you can enjoy to look at.
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img width="200" height="200" src="img/power.png" class="img-responsive mg-md center-block" alt='offline' />
+				<h4 class="mg-md text-center">
+					<strong>WORKS OFFLINE</strong>
+				</h4>
+				<p class="text-center mg-lg">
+					Unlike so many other website building tools Blocs actually works offline.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- features bloc END -->
+
+
+<!-- help bloc -->
+<div class="bloc  d-bloc " id="help">
+	<div class="container bloc-xl">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2 class="text-center mg-sm">
+					<strong>BLOCS CAN HELP YOU</strong>
+				</h2>
+				<h3 class="text-center mg-xl">
+					REGARDLESS OF YOUR SKILLSET
+				</h3>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-sm-4">
+				<img width="144" height="144" src="img/beginner.png" class="img-responsive center-block mg-lg" alt='beginner' />
+				<h4 class="mg-md text-center">
+					<strong>BEGINNER</strong>
+				</h4>
+				<p class="text-center ">
+					Blocs is easy to understand and use. It’s simplicity will encourage you to take your first steps.  
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img width="144" height="144" src="img/designer.png" class="img-responsive center-block mg-lg" alt='designer' />
+				<h4 class="mg-md text-center">
+					<strong>DESIGNER</strong>
+				</h4>
+				<p class="text-center ">
+					Blocs lets you easily build and style great looking websites without the need to write a single line of code.
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img width="144" height="144" src="img/developer.png" class="img-responsive center-block mg-lg" alt='developer' />
+				<h4 class="mg-md text-center">
+					<strong>DEVELOPER</strong>
+				</h4>
+				<p class="text-center ">
+				    Blocs generates good quality, clean code. This makes it the perfect springboard to get the basics in place, fast.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- help bloc END -->
+
+<!-- buy bloc -->
+<div class="bloc  d-bloc" id="buy">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2 class="text-center mg-sm">
+					<strong>ENIGMARUN</strong>
+				</h2>
+				<h3 class="text-center mg-lg">
+					CHECK OUT ENIGMARUN MERCHANDISE!
+				</h3>
+			</div>
+		</div>
+		<div class="row voffset ">
+			<div class="col-sm-4">
+				<a href="#" class="btn  btn-xl btn-wire btn-block">POSTER</a>
+			</div>
+			<div class="col-sm-4">
+				<a href="#" class="btn  btn-xl btn-c-2 btn-block">DONATE ME!</a>
+			</div>
+            <div class=" col-sm-4">
+				<a href="#" class="btn  btn-xl btn-wire btn-block">VIDEO</a>
+			</div>
+            <div class="col-sm-12 text-center" style="margin-top:40px;">
+                <h4>All rights reserved to IAMWILL.CO</h4>
+            </div>
+		</div>
+	</div>
+</div>
+<!-- buy bloc END -->
+
+<!-- Footer bloc -->
+<div class="bloc  d-bloc" id="footer">
+	<div class="container bloc-md">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h4><strong>WINDOWS ONLY - WINDOW XP MINIMUM</strong></h4>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer bloc END -->
+</div>
+    
+<!-- Main container END -->
+    
+<!-- Video Modal -->
+  <div class="modal fade" id="demoVideo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-video">
+      <div class="modal-content modal-black">
+        <div class="modal-body">
+         	<a type="button" class="close close-video pauseallvimeo" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-minus"></span></a>
+           <div class="video-frame"> 
+        		<iframe src="http://player.vimeo.com/video/113899824" width="100%" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+           </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Video Modal END -->
+
+</body>
+    
+<!-- Google Analytics -->
+<script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-17945933-22', 'auto');  ga('send', 'pageview');</script>
+<!-- Google Analytics END -->
+
+</html>
